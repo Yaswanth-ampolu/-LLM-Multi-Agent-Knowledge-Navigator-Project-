@@ -1,0 +1,11 @@
+langchain
+langchain-community
+streamlit
+langchain_experimental
+langchain_groq
+python-dotenv
+arxiv
+wikipedia
+duckduckgo_search
+xmltodict
+google-search-results
