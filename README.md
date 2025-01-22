@@ -14,27 +14,34 @@
 ## Manager Agent:
 ### Manages the three agents above to provide a comprehensive response depending on the query type.
 ## 🛠️ Setup Instructions
-### 1. Clone the Repository
-'''
-### git clone https://github.com/Yaswanth-ampolu/-LLM-Multi-Agent-Knowledge-Navigator-Project-.git
-'''
-### cd -LLM-Multi-Agent-Knowledge-Navigator-Project-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Yaswanth-ampolu/-LLM-Multi-Agent-Knowledge-Navigator-Project-.git
+   cd -LLM-Multi-Agent-Knowledge-Navigator-Project-
+   ```
 
-### 2. Create a Virtual Environment
-### python3 -m venv venv
-### source venv/bin/activate
+2. Create a Virtual Environment
+   ```bash
+    python3 -m venv venv
+   source venv/bin/activate
+   ```
 
-## 3. Install Dependencies
-### pip install -r requirements.txt
+
+3. Install Dependencies
+   ```bash
+    pip install -r requirements.txt
+   ```
+
+
 ### Set Up Environment Variables
-
-## 4. Create a .env file in the root directory and add your API keys:
+## Create a .env file in the root directory and add your API keys:
 ### GROQ_API_KEY=your_groq_api_key
 ### SERP_API_KEY=your_serp_api_key
 
-## 5. Run the Streamlit App
-## streamlit run app.py
-
+## Run the Streamlit App
+  ``` bash
+    streamlit run app.py
+  ```
 ## 🔧 Usage
 ### 1.Open the application in your browser after running the Streamlit command.
 ### 2.Enter your query in the input box.
